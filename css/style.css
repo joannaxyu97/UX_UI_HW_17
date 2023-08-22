@@ -26,15 +26,20 @@ li {
 .skillList, .toolList {
     background-color: #F5F5F5;
     color: black;
-    text-align: end;
-    justify-content: flex-start;
+    display: grid;
+    grid-template-columns: 200px;
+    grid-template-rows: 100px;
+    text-align: center;
+    justify-content: end;
+    
 }
 
-.body {
+body {
     background-color: #F5F5F5;
 }
 
 .footer {
+
     list-style: none;
     display: inline-block;
     margin: 0;
